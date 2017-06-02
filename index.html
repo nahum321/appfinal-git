@@ -1,0 +1,670 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+<title>Aplicacion Final</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<!--grupo CSS-->
+	<link rel="stylesheet" href="css/tema-app10.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+    <!--Grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/acciones.js"></script>
+    <!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="visor/engine1/style.css" />
+	<script type="text/javascript" src="visor/engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+    <!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="visor/engine2/style.css" />
+	<script type="text/javascript" src="visor/engine2/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+    
+	
+	<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/sistemas.jpg','imagenes/sistema.jpg','imagenes/mecatronica.jpg','imagenes/mecatro.jpg','imagenes/electrica_03.jpg','imagenes/ingeniera-electronica.jpg')">
+ 		
+ 
+   <div data-role="page" id="Principal" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Carreras<br>Universitarias</h1>
+       </div>
+
+       <div data-role="main" class="ui-content">
+
+     </div>
+     <div>
+      <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a" >
+      <li class="ui-first-child ui-last-child">
+      	  <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Ingenieria en Sistemas Computacionales.</h2>
+             <p>Informacion acerca de esta Carrera.</p>
+           </a>
+         </li>  
+         <li class="ui-first-child ui-last-child">
+         	 <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2>Ingenieria en Mecatronica</h2>
+                <p>Informacion acerca de esta Carrera.</p>
+               </a>
+        </li>
+         <li class="ui-first-child ui-last-child">
+         	 <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2>Ingenieria Electronica.</h2>
+                <p>Informacion acerca de esta Carrera.</p>
+               </a>    
+        </li>
+         <li class="ui-first-child ui-last-child">
+         	 <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2>Acerca de la Aplicacion</h2>
+                <p>Muestra datos del Desarrollador</p>
+               </a>
+        </li>
+       </ul><br>
+       <div> <!-- Start WOWSlider.com BODY section -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+		<li><img src="visor/data1/images/v1.png" alt="v1" title="v1" id="wows1_0"/></li>
+		<li><img src="visor/data1/images/1.2.jpg" alt="1.2" title="1.2" id="wows1_1"/></li>
+		<li><img src="visor/data1/images/vis1.jpg" alt="vis1" title="vis1" id="wows1_2"/></li>
+		<li><img src="visor/data1/images/1.jpg" alt="1" title="1" id="wows1_3"/></li>
+		<li><img src="visor/data1/images/visor1.jpg" alt="visor1" title="visor1" id="wows1_4"/></li>
+		<li><img src="visor/data1/images/vi1.jpg" alt="vi1" title="vi1" id="wows1_5"/></li>
+		<li><a href="http://wowslider.net"><img src="visor/data1/images/viso1.jpg" alt="jquery slideshow" title="viso1" id="wows1_6"/></a></li>
+		<li><img src="visor/data1/images/1.1.jpg" alt="1.1" title="1.1" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="v1"><span><img src="visor/data1/tooltips/v1.png" alt="v1"/>1</span></a>
+		<a href="#" title="1.2"><span><img src="visor/data1/tooltips/1.2.jpg" alt="1.2"/>2</span></a>
+		<a href="#" title="vis1"><span><img src="visor/data1/tooltips/vis1.jpg" alt="vis1"/>3</span></a>
+		<a href="#" title="1"><span><img src="visor/data1/tooltips/1.jpg" alt="1"/>4</span></a>
+		<a href="#" title="visor1"><span><img src="visor/data1/tooltips/visor1.jpg" alt="visor1"/>5</span></a>
+		<a href="#" title="vi1"><span><img src="visor/data1/tooltips/vi1.jpg" alt="vi1"/>6</span></a>
+		<a href="#" title="viso1"><span><img src="visor/data1/tooltips/viso1.jpg" alt="viso1"/>7</span></a>
+		<a href="#" title="1.1"><span><img src="visor/data1/tooltips/1.1.jpg" alt="1.1"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="visor/engine1/wowslider.js"></script>
+	<script type="text/javascript" src="visor/engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+       </div>																						
+         <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+         	<div>
+               <img src="imagenes/logo.png" width="46" height="46">
+            <div>
+               <h4>Carreras Universitarias</h4>
+               <h4>Jose Nahum Negrete Gonzalez</h4>
+            </div>
+           </div>
+        </div>
+       </div>
+      </div>
+     
+       
+           
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+             <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+             <h1>Sistemas<br> Computacionales.</h1>
+           </div>
+           <div data-role="content">
+             <div>
+   	          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/sistema.jpg',1)"><img src="imagenes/computacion1.png" width="100%" height="100%" id="Image25"></a> </div>
+          </div>
+          <div data-role="collapsible" data-content-theme="false">
+          <h1>Plan de Estudios</h1>
+          <div>
+            <h1> Primer cuatrimestre</h1><br>
+Introducción a la Ingeniería en Sistemas Computacionales y Electrónicos<br>
+Introducción al Hardware<br>
+Administración I<br>
+Álgebra y Geometría Analítica<br>
+Probabilidad y Estadística<br>
+Metodología del Discurso Escrito<br>
+Desarrollo de Habilidades del Pensamiento<br>
+<h1>Segundo cuatrimestre</h1><br>
+Introducción a la Programación<br>
+Electrónica Básica<br>
+Administración II<br>
+Cálculo Diferencial<br>
+Herramientas Estadísticas<br>
+Metodología del Discurso Oral<br>
+Metodología de la Investigación<br>
+<h1>Tercer cuatrimestre</h1><br>
+Sistemas de Información<br>
+Programación de Computadoras<br>
+Circuitos Lógicos<br>
+Física<br>
+Economía<br>
+Cálculo Integral<br>
+Investigación de Operaciones<br>
+<h1>Cuarto cuatrimestre</h1><br>
+Sistemas de Bases de Datos<br>
+Programación Avanzada<br>
+Circuitos Secuenciales<br>
+Electricidad y Magnetismo<br>
+Ecuaciones Diferenciales<br>
+Métodos de Optimización<br>
+Seminario de Desarrollo de Valores<br>
+<h1>Quinto cuatrimestre</h1><br>
+Desarrollo de Bases de Datos<br>
+Análisis y Diseño de Sistemas<br>
+Electrónica Analógica<br>
+Contabilidad General<br>
+Álgebra Lineal<br>
+Simulación<br>
+Seminario del Mexicano y la Cultura<br>
+<h1>Sexto cuatrimestre</h1><br>
+Optativa I<br>
+Análisis y Diseño de Redes<br>
+Administración de Bases de Datos<br>
+Desarrollo e Implementación de Sistemas<br>
+Circuitos Electrónicos<br>
+<h1>Séptimo cuatrimestre</h1><br>
+Optativa II<br>
+Administración de Redes<br>
+Gráficas por Computadora<br>
+Sistemas de Control<br>
+Seminario de Desarrollo Sustentable<br>
+<h1>Octavo cuatrimestre</h1><br>
+Optativa III<br>
+Diseño de Páginas Web<br>
+Sistemas Electrónicos<br>
+Seminario de Desarrollo de Proyectos<br>
+Seminario de Investigación<br>
+<h1>Noveno cuatrimestre</h1><br>
+Optativa IV<br>
+Optativa V<br>
+Desarrollo de Aplicaciones para Internet<br>
+Seminario de Electrónica<br>
+Seminario de Tesis<br>
+Sistemas Operativos<br>
+ 
+          </div>
+          </div>
+           <div data-role="collapsible" data-content-theme="false">
+          <h1>Perfil de Egreso</h1>
+          <div>
+          <h3><p>1.-Diseñar, configurar y administrar redes computacionales aplicando las normas y estándares vigentes.<br>
+2.-Desarrollar, implementar y administrar software de sistemas o de aplicación que cumpla con los estándares de calidad con el fin de apoyar la productividad y competitividad de las organizaciones.<br>
+3.-Coordinar y participar en proyectos interdisciplinarios.
+4.-Diseñar e implementar interfaces hombre-máquina y máquina-máquina para la automatización de sistemas.<br>
+5.-Identificar y comprender las tecnologías de hardware para proponer, desarrollar y mantener aplicaciones eficientes.<br>
+6.-Diseñar, desarrollar y administrar bases de datos conforme a requerimientos definidos, normas organizacionales de manejo y seguridad de la información, utilizando tecnologías emergentes.<br>
+7.-Integrar soluciones computacionales con diferentes tecnologías, plataformas o dispositivos.<br>
+8.-Desarrollar una visión empresarial para detectar áreas de oportunidad que le permitan emprender y desarrollar proyectos aplicando las tecnologías de la información y comunicación.<br>
+9.-Desempeñar sus actividades profesionales considerando los aspectos legales, éticos, sociales y de desarrollo sustentable.<br>
+10.-Poseer habilidades metodológicas de investigación que fortalezcan el desarrollo cultural, científico y tecnológico en el ámbito de sistemas computacionales y disciplinas afines.<br>
+11.-Seleccionar y aplicar herramientas matemáticas para el modelado, diseño y desarrollo de tecnología computacional.<br>
+</p></h3>
+		</div>
+       </div> 
+        <div data-role="collapsible" data-content-theme="false">
+          <h1>Universidades que ofrecen la Ingenieria</h1>
+          <div>
+          <p><h1>Puebla</h1><br>
+          <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a" >
+      <li class="ui-first-child ui-last-child">
+      	  <a href="http://www.universia.net.mx/universidades/instituto-tecnologico-superior-atlixco/in/29928" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h1>Instituto Tecnológico Superior de Atlixco</h1>
+           </a>
+         </li>
+         </ul>
+         <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a" >
+      <li class="ui-first-child ui-last-child">
+      	  <a href="http://universidades.estudia.com.mx/u21222-centro-universitario-irlandes-campus-puebla.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h1>Centro Universitario Irlandés, Campus Puebla</h1>
+           </a>
+         </li>
+         </ul>
+          <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a" >
+      <li class="ui-first-child ui-last-child">
+      	  <a href="http://itu.uncuyo.edu.ar/" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h1>Instituto Tecnológico Universitarioa</h1>
+           </a>
+         </li>
+         </ul>
+       </div>
+     </div>
+     <div style="width:90%;">
+     <div>
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child">
+       <a href="http://noticias.universia.net.mx/educacion/noticia/2016/10/03/1144198/6-razones-estudiar-ingenieria-sistemas-computacionales.html" target="_self" data-role="button" >
+       <h2>6 razones para estudiar <br>esta Ingenieria</h2>
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('1','','imagenes/sistemas.jpg',1)"><img src="imagenes/computacion.jpg" width="100%" height="100%" id="1"></a>
+   </div>
+          <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+          	 <h4>Carreras Universitarias. JNNG</h4>
+             <img src="imagenes/logo.png" width="46" height="46">
+          </div>
+         </div>
+         
+        
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+            <h1>Ingenieria en<br> Mecatronica</h1>
+         </div>
+         <div data-role="content">
+           <div>
+   		   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image','','imagenes/mecatronica.jpg',1)"><img src="imagenes/logomecatronica.jpg" width="100%" height="100%" id="image"></a> </div>
+            <div data-role="collapsible" data-content-theme="false">
+          <h1>Plan de Estudios</h1>
+          <div>
+          	<p>
+<h1>FACULTAD DE INGENIERÍA</h1>
+Total de créditos: 421<br>
+<h1>PRIMER SEMESTRE</h1>
+09 Álgebra<br>
+09 Cálculo Diferencial<br>
+09 Geometría Analítica<br>
+08 Computación para Ingenieros<br>
+06 Cultura y Comunicación<br>
+<h1>SEGUNDO SEMESTRE</h1>
+09 Álgebra Lineal<br>
+09 Cálculo Integral<br>
+09 Estática<br>
+08 Costos e Ingeniería Económica<br>
+09 Introducción a la Economía<br>
+<h1>TERCER SEMESTRE</h1><br>
+09 Ecuaciones Diferenciales<br>
+09 Cálculo Vectorial<br>
+09 Cinemática y Dinámica<br>
+11 Termodinámica<br>
+06 Dibujo Mecánico e Industrial<br>
+<h1>CUARTO SEMESTRE</h1>
+11 Electricidad y Magnetismo<br>
+07 Análisis Numérico<br>
+08 Termodinámica Aplicada<br>
+08 Matemáticas Avanzadas<br>
+09 Probabilidad yEstadística<br>
+<h1>QUINTO SEMESTRE</h1><br>
+10 Análisis de Circuitos<br>
+08 Mecánica de Sólidos<br>
+10 Mecánica de Fluidos I<br>
+10 Ingeniería de Materiales<br>
+06 Literatura Hispanoamericana Contemporánea<br>
+<h1>SEXTO SEMESTRE</h1><br>
+10 Electrónica Básica<br>
+08 Mecanismos<br>
+04 Laboratorio de Máquinas Térmicas<br>
+10 Ingeniería de Manufactura<br>
+08 Modelado de Sistemas Físicos<br>
+<h1>SÉPTIMO SEMESTRE</h1><br>
+10 Circuitos Digitales<br>
+08 Diseño de Elementos de Máquinas<br>
+08 Técnicas de Programación<br>
+06 Ética Profesional<br>
+08 Instrumentación<br>
+<h1>OCTAVO SEMESTRE</h1><br>
+10 Máquinas Eléctricas<br>
+08 Control Automático<br>
+* Asignatura Optativa<br>
+04 Seminario de Ingeniería<br>
+10 Diseño y Manufactura Asistidos por Computadora<br>
+<h1>NOVENO SEMESTRE</h1><br>
+10 Diseño Mecatrónico<br>
+07 Sistemas Electrónicos Lineales<br>
+* Asignatura Optativa<br>
+10 Robótica<br>
+06 Recursos y Necesidades de México<br>
+* Optativa de Ciencias Sociales y Humanidades<br>
+<h1>DÉCIMO SEMESTRE</h1><br>
+* Asignatura Optativa<br>
+* Asignatura Optativa<br>
+* Asignatura Optativa<br>
+* Asignatura Optativa<br>
+06 Proyecto de Ingeniería<br>
+<h1>Asignaturas Optativas</h1><br>
+08 Automatización Industrial<br>
+11 Control Avanzado<br>
+06 Dibujo<br>
+08 Dinámica de Maquinaria<br>
+08 Diseño del Producto<br>
+10 Ingeniería del Diseño<br>
+08 Instalaciones Electromecánicas<br>
+09 Inteligencia Artificial<br>
+08 Introducción a Sistemas no Lineales<br>
+10 Planeación y Control de la Producción<br>
+08 Procesamiento de Señales<br>
+10 Química para Ingenieros Industriales
+            </p>
+          </div>
+         </div>
+          <div data-role="collapsible" data-content-theme="false">
+          <h1>Perfil de Egreso</h1>
+          <div>
+          	<p>Es un profesional interdisciplinario capaz de diseñar, manufacturar y construir dispositivos y sistemas mecatrónicos, así como automatizar procesos industriales, con dominio de una 						segunda lengua y la habilidad de integrarse en equipos de trabajo, para desarrollar y emplear nueva tecnología, que esté aplicada de manera ética y responsable en la solución de las necesidades del entorno social y en armonía con el medio ambiente.
+
+<h1>Saber</h1>
+El egresado de ingeniería mecatrónica tendrá la capacidad de:<br>
+Conocer las bases de la reingeniería de procesos.<br>
+Conocer los principios eléctricos y magnéticos para el funcionamiento de máquinas eléctricas.<br>
+Conocer los elementos para el control de máquinas eléctricas.<br>
+Comprender los elementos para el control y automatización de sistemas y procesos.<br>
+Conocer los métodos de análisis y síntesis de mecanismos.<br>
+Identificar sensores y actuadores para aplicaciones de control.<br>
+Conocer los principios básicos de la termodinámica.<br>
+Identificar los componentes que constituyen un sistema embebido.<br>
+Entender la metodología para el diseño de sistemas mecatrónicos.<br>
+Conocer las técnicas y herramientas para el diseño, dibujo, manufactura e ingeniería asistidos por computadora.<br>
+Identificar los componentes básicos de la electrónica analógica, digital y de potencia.<br>
+Comprender los elementos que conforman un programa de cómputo.<br>
+Conocer los procedimientos para la medición de variables físicas y el análisis de los resultados.<br>
+Conocer los principios físicos y matemáticos que describen el comportamiento de sistemas mecatrónicos.<br>
+Conocer el funcionamiento de los elementos que intervienen en sistemas neumáticos e hidráulicos.<br>
+Conocer las indicaciones y operaciones de manufactura con y sin remoción de material.<br>
+Conocer los procedimientos para la programación de dispositivos programables.<br>
+Identificar las propiedades mecánicas, eléctricas y térmicas de los materiales.<br>
+Conocer el comportamiento de estructuras y elementos mecánicos ante cargas estáticas y dinámicas.<br>
+Conocer la metodología para el diseño de proyectos de productos y procesos mecatrónicos.<br>
+Conocer la metodología para la gestión de proyectos de productos y procesos mecatrónicos.<br>
+Conocer el concepto y alcances de la Ingeniería Mecatrónica.<br>
+Conocer los elementos necesarios para el desarrollo e implementación de un plan de negocios.<br>
+<h1>Saber hacer</h1><br>
+Diseñar proyectos de productos y procesos mecatrónicos.<br>
+Gestionar proyectos de productos y procesos mecatrónicos.<br>
+Desarrollar hardware y/o software para aplicaciones específicas de control y automatización.<br>
+Modelar sistemas físicos.<br>
+Plantear problemas, argumentar hipótesis, validar y escribir resultados.<br>
+Emplear procesos de manufactura, así como manejo y transporte de productos y materiales.<br>
+Utilizar herramientas de tecnología en informática y comunicaciones para el dibujo, diseño, manufactura e ingeniería asistidos por computadora.<br>
+</p>
+          </div>
+         </div> 
+         <div data-role="collapsible" data-content-theme="false">
+          <h1>Universidades que ofrecen la Ingenieria</h1>
+          <div><br>
+         <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a" >
+      <li class="ui-first-child ui-last-child">
+      	  <a href="http://www.upaep.mx/index.php?option=com_content&view=article&id=208&Itemid=167" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h1>UPAEP</h1>
+           </a>
+         </li>
+         </ul><br>
+         
+          
+    <div data-role="main" class="ui-content" align="center">
+	<div style="width:90%;">
+ 	<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    
+  	<li class="ui-first-child ui-last-child">
+   	<a href="http://www.unitec.mx/ingenieria-mecatronica/" target="_self" data-role="button" >
+     <h2>Universidad Tecnológica<br> de México</h2>
+   </a>
+  	</li>
+    
+  	<li class="ui-first-child ui-last-child">
+    <a href="https://www.uvp.mx/ingenierias/ingenieria-mecatronica" target="_self" data-role="button">
+      <h2>Universidad del Valle<br> de Puebla</h2>
+    </a>
+  		</li>
+ 		</ul>
+		</div>
+	</div>
+ </div>
+ </div>
+			 <div style="width:90%;">
+     <div>
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child">
+       <a href="https://www.universidadesvirtuales.com.co/carreras-universitarias/motivos-para-estudiar-ingenieria-mecatronica" target="_self" data-role="button" >
+       <h2>Motivos para estudiar<br> Ingeniería Mecatrónica</h2>
+       </a>
+       </li>
+       </ul>
+       </div>
+       </div>
+	       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('meca','','imagenes/mecatro.jpg',1)"><img src="imagenes/meca.jpg" width="100%" height="100%" id="meca"></a> </div>
+          
+          <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+           <h4>Carreras Universitarias, JNNG</h4>
+           <img src="imagenes/logo.png" width="46" height="46">
+     </div>
+    </div>
+   </div>
+          
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+            <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+           <h1>Ingenieria en<br> Electronica.</h1>
+           </div>
+           <div data-role="content">
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('elec','','imagenes/electrica_03.jpg',1)"><img id="elec" src="imagenes/logoElectronica.jpg" width="100%" height="100%"></a>
+<div>
+      <div data-role="collapsible" data-content-theme="false">
+          <h1>Plan de Estudios</h1>
+          <div>
+          	<h1>Primer Semestre</h1><br>
+            Cálculo I<br>
+Laboratorio de Cálculo I<br>
+Inglés I<br>
+Física I<br>
+Laboratorio de Física I<br>
+Álgebra Superior<br>
+Química<br>
+Laboratorio de Química<br>
+Laboratorio de Herramientas Computacionales<br>
+<h1>Segundo Semestre</h1><br>
+Cálculo II<br>
+Inglés II<br>
+Tecnología de Materiales<br>
+Física II<br>
+Laboratorio de Física II<br>
+Electrónica Analógica I<br>
+Laboratorio de Electrónica Analógica I<br>
+Programación de Computadoras<br>
+Laboratorio de Programación de Computadoras<br>
+<h1>Tercer Semestre</h1><br>
+Cálculo III<br>
+Inglés III<br>
+Métodos Numéricos<br>
+Teoría Electromagnética I<br>
+Laboratorio de Teoría Electromagnética I<br>
+Electrónica Analógica II<br>
+Laboratorio de Electrónica Analógica II<br>
+Termodinámica<br>
+Laboratorio de Termodinámica<br>
+<h1>Cuarto Semestre</h1><br>
+Cálculo IV<br>
+Inglés IV<br>
+Circuitos Eléctricos I<br>
+Teoría Electromagnética II<br>
+Laboratorio de Teoría Electromagnética II<br>
+Electrónica Analógica III<br>
+Laboratorio de Electrónica Analógica III<br>
+Electrónica Digital I<br>
+Laboratorio de Electrónica Digital I<br>
+<h1>Quinto Semestre</h1><br>
+Álgebra Lineal<br>
+Probabilidad y Estadística<br>
+Circuitos Eléctricos II<br>
+Máquinas Eléctricas I<br>
+Laboratorio de Máquinas Eléctricas I<br>
+Instrumentación I<br>
+Laboratorio de Instrumentación I<br>
+Electrónica Digital II<br>
+Laboratorio de Electrónica Digital II<br>
+<h1>Sexto Semestre</h1><br>
+Contabilidad<br>
+Física III<br>
+Laboratorio de Física III<br>
+Laboratorio de Microcontroladores<br>
+Máquinas Eléctricas II<br>
+Laboratorio de Máquinas Eléctricas II<br>
+Instrumentación II<br>
+Lab. Laboratorio de Instrumentación II<br>
+Control Analógico I<br>
+Laboratorio de Control Analógico I<br>
+<h1>Séptimo Semestre</h1><br>
+Economía<br>
+Laboratorio de Microcontroladores II (TS)<br>
+Instrumentación Virtual (TS)<br>
+Electrónica de Potencia<br>
+Laboratorio de Electrónica de Potencia<br>
+Ética Profesional<br>
+Comunicaciones I<br>
+Laboratorio de Comunicaciones I<br>
+Control Analógico II<br>
+Laboratorio de Control Analógico II<br>
+<h1>Octavo Semestre</h1><br>
+Administración<br>
+Procesamiento digital de Señales I<br>
+Laboratorio de Procesamiento Digital de Señales I<br>
+Electrónica de Potencia II (TS)<br>
+Laboratorio de Electrónica de Potencia II (TS)<br>
+Comunicaciones II<br>
+Laboratorio de Comunicaciones II<br>
+Control en Espacio de Estados (TS)<br>
+Control Digital I<br>
+Laboratorio de Control Digital I<br>
+<h1>Noveno Semestre</h1><br>
+Expresión Oral y Escrita<br>
+Instrumentación Virtual II (TS)<br>
+Instrumentación Inalámbrica (TS)<br>
+Bioelectrónica (TS)<br>
+Diseño y Comercialización de Prototipos (TS)<br>
+Fibras Ópticas (TS)<br>
+Control con Lógica Difusa (TS)<br>
+Robótica (TS)<br>
+Telefonía Celular (TS)<br>
+          </div>
+          </div>
+          <div data-role="collapsible" data-content-theme="false">
+          <h1>Perfil de Egreso</h1>
+          <div>
+          	<p>
+Formación técnica especializada que habilite el egresado para llevar a cabo tareas que se requieran principalmente en la planta productiva, institutos de investigación e instituciones de educación superior del país. Capacidad de aplicar los conocimientos adquiridos durante sus estudios en su campo de especialización dentro del ámbito de la ingeniería electrónica. Capacidad para la elaboración de reportes y artículos técnicos en el idioma español y también en inglés. Capacidad de presentación y defensa de trabajo técnico en diversos foros, tanto académicos como profesionales. Capacidad de comunicación clara y precisa e intercambio de conocimientos y puntos de vista con profesionales de área. Capacidad de integrarse al trabajo en equipo. Capacidad de pensamiento asertivo y crítico.
+            </p>
+          </div>
+         </div> 
+          <div data-role="collapsible" data-content-theme="false">
+          <h1>Universidades que ofrecen la Ingenieria</h1>
+          <div>
+          <div data-role="main" class="ui-content" align="center">
+	<div style="width:98%;">
+ 	<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+  	<li class="ui-first-child ui-last-child">
+   	<a href="http://www.up.edu.mx/es/licenciatura/ags/ingenieria-en-electronica-y-sistemas-digitales" target="_self" data-role="button" >
+     <h2>Universidad Panamericana<br> de México</h2>
+   </a>
+  			</li>
+  	<li class="ui-first-child ui-last-child">
+    <a href="http://www.unitec.mx/ingenieria-en-telecomunicaciones-y-electronica/" target="_self" data-role="button">
+      <h2>Universidad Tecnologica<br> de Mexico</h2>
+    </a>
+  	</li>
+    <li class="ui-first-child ui-last-child">
+    <a href="http://admision.itesm.mx/ite" target="_self" data-role="button">
+      <h2>Tecnologico de<br>Monterrey</h2>
+    </a>
+  	</li>
+ 		</ul>
+		</div>
+</div>
+</div>
+        </div>
+       </div>
+        <div style="width:90%;">
+     <div>
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child">
+       <a href="http://www.consejosgratis.es/excelentes-razones-para-estudiar-ingenieria-electronica/" target="_self" data-role="button" >
+       <h2>Motivos para estudiar<br> Ingeniería Electronica.</h2>
+       </a>
+       </li>
+       </ul>
+       </div>
+       </div>
+       
+            <div>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ing','','imagenes/ingeniera-electronica.jpg',1)"><img src="imagenes/electronica.jpg" width="100%" height="100%" id="ing"></a> </div>
+ 			<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+             <h4>Carreras Universitarias, JNNG</h4>
+             <img src="imagenes/logo.png" width="46" height="46">
+                 </div>
+              </div>
+			</div>
+         </div>
+ <p>&nbsp;</p>
+ 
+ 
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+             <h1><strong>Elaborado por:</strong></h1>
+           </div>
+ <div data-role="content" align="center">
+             <div>
+             <h2><strong>Aplicacion 10 Carreras Universitarias.</strong><br><hr>
+             <strong>Nombre del Elaborador de la Aplicacion:</strong> <br>Jose Nahum Negrete Gonzalez
+			<p><strong>Especialidad:</strong> Programacion<br>
+            <strong>Submodulo:</strong> Desarrolla Aplicaciones Moviles<br>
+            <strong>Docente:</strong> Lic. Jose Antonio Gomez Hernandez</h2>
+            </p>
+       </div>
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="visor/data2/images/logo2.png" alt="logo2" title="logo2" id="wows2_0"/></li>
+		<li><img src="visor/data2/images/v2.jpg" alt="v2" title="v2" id="wows2_1"/></li>
+		<li><img src="visor/data2/images/2.1.jpg" alt="2.1" title="2.1" id="wows2_2"/></li>
+		<li><img src="visor/data2/images/2.jpg" alt="2" title="2" id="wows2_3"/></li>
+		<li><img src="visor/data2/images/vis2.jpg" alt="vis2" title="vis2" id="wows2_4"/></li>
+		<li><img src="visor/data2/images/vi2.jpg" alt="vi2" title="vi2" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com"><img src="visor/data2/images/viso2.jpg" alt="wow slider" title="viso2" id="wows2_6"/></a></li>
+		<li><img src="visor/data2/images/visor2.jpg" alt="visor2" title="visor2" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="logo2"><span><img src="visor/data2/tooltips/logo2.png" alt="logo2"/>1</span></a>
+		<a href="#" title="v2"><span><img src="visor/data2/tooltips/v2.jpg" alt="v2"/>2</span></a>
+		<a href="#" title="2.1"><span><img src="visor/data2/tooltips/2.1.jpg" alt="2.1"/>3</span></a>
+		<a href="#" title="2"><span><img src="visor/data2/tooltips/2.jpg" alt="2"/>4</span></a>
+		<a href="#" title="vis2"><span><img src="visor/data2/tooltips/vis2.jpg" alt="vis2"/>5</span></a>
+		<a href="#" title="vi2"><span><img src="visor/data2/tooltips/vi2.jpg" alt="vi2"/>6</span></a>
+		<a href="#" title="viso2"><span><img src="visor/data2/tooltips/viso2.jpg" alt="viso2"/>7</span></a>
+		<a href="#" title="visor2"><span><img src="visor/data2/tooltips/visor2.jpg" alt="visor2"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="visor/engine2/wowslider.js"></script>
+<script type="text/javascript" src="visor/engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                  <h4>Carreras Universitarias, JNNG</h4>
+                  <img src="imagenes/logo.png" width="46" height="46">
+            </div>
+          </div>
+             </div>				
+           
+                    
+</body>
+</html>
